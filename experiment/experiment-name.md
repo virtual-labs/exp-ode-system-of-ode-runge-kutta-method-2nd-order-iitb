@@ -1,1 +1,1 @@
-## Experiment name
+## ODE: Runge Kutta 2<sup>nd</sup> method for 2<sup>nd</sup> order equation (System of ODE)
