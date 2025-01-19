@@ -1,0 +1,20 @@
+[
+    {
+        "question": "Runge Kutta method 2nd order is used to solve _______________________",
+        "qid": 1,
+        "option_a": "initial value disfferential equation",
+        "option_b": "boundry value disfferential equation",
+        "option_c": "",
+        "option_d": "",
+        "correct_option": "a"
+    },
+    {
+        "question": "The formulation used in Runge Kutta method 2nd order is",
+        "qid": 2,
+        "option_a": "<span style='display:inline-block'>$$ s_{y1} = hf(x_1, y_1, z_1)\\ \\ \\ \\ \\ s_{z1} = hg(x_1, y_1, z_1) $$ $$ s_{y2} = hf(x_1+h, y_1+s_{y1}, z_1+s_{z1}) $$ $$ s_{z2} = hf(x_1+h, y_1+s_{y1}, z_1+s_{z1}) $$ $$ y_2 = y_1 -\\frac{s_{y1}-s_{y2}}{2} \\ \\ \\ \\ \\ z_2 = z_1-\\frac{s_{z1}-s_{z2}}{2} $$</span>",
+        "option_b": "<span style='display:inline-block'>$$ s_{y1} = hf(x_1, y_1, z_1)\\ \\ \\ \\ \\ s_{z1} = hg(x_1, y_1, z_1) $$ $$ s_{y2} = hf(x_1+h, y_1+s_{y1}, z_1+s_{z1}) $$ $$ s_{z2} = hf(x_1+h, y_1+s_{y1}, z_1+s_{z1}) $$ $$ y_2 = \\frac{s_{y1}+s_{y2}}{2} \\ \\ \\ \\ \\ z_2 = \\frac{s_{z1}+s_{z2}}{2} $$</span>",
+        "option_c": "<span style='display:inline-block'>$$ s_{y1} = hf(x_1, y_1, z_1)\\ \\ \\ \\ \\ s_{z1} = hg(x_1, y_1, z_1) $$ $$ s_{y2} = hf(x_1+h, y_1+s_{y1}, z_1+s_{z1}) $$ $$ s_{z2} = hf(x_1+h, y_1+s_{y1}, z_1+s_{z1}) $$ $$ y_2 = y_1 +\\frac{s_{y1}+s_{y2}}{2} \\ \\ \\ \\ \\ z_2 = z_1+\\frac{s_{z1}+s_{z2}}{2} $$</span>",
+        "option_d": "<span style='display:inline-block'>$$ s_{y1} = hf(x_1, y_1, z_1)\\ \\ \\ \\ \\ s_{z1} = hg(x_1, y_1, z_1) $$ $$ s_{y2} = hf(x_1+h, z_1+s_{z1}) $$ $$ s_{z2} = hf(x_1+h, z_1+s_{z1}) $$ $$ y_2 = y_1 +\\frac{s_{y1}+s_{y2}}{2} \\ \\ \\ \\ \\ z_2 = z_1+\\frac{s_{z1}+s_{z2}}{2} $$</span>",
+        "correct_option": "a"
+    }
+]
